@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Enlighter</string>
+    <string name="connectButtonText">Connect</string>
+    <string name="connectDescriptionText">Enter Mac adress:</string>
+    <string name="manualChooseText">Manually choose color</string>
+    <string name="fadeChooseText">Automatically fade</string>
+    <string name="demo_min_label">Min</string>
+    <string name="demo_max_label">Max</string>
+</resources>
