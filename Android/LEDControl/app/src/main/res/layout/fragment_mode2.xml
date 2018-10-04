@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/background_border"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.flask.colorpicker.ColorPickerView
+        android:id="@+id/color_picker_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:alphaSlider="false"
+        app:lightnessSlider="false"
+        app:wheelType="CIRCLE"
+        />
+
+</RelativeLayout>

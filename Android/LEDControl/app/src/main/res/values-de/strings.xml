@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LEDControl</string>
+    <string name="choose_color">Farbe auswählen</string>
+    <string name="mode">Modus</string>
+    <string name="mode_02">Farbe</string>
+    <string name="send">Senden</string>
+    <string name="stripe_ids">LED Streifen</string>
+    <string name="mode_04">Polizei Licht</string>
+    <string name="speed">Geschwindigkeit</string>
+    <string name="slow">Langsam</string>
+    <string name="fast">Schnell</string>
+</resources>

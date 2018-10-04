@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tobi.com.ledcontrol.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="40sp"
+            android:text="@string/smart_home"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/border_horiz_1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_Medium"
+        android:layout_marginRight="@dimen/activity_horizontal_margin_Medium"
+        android:layout_marginStart="@dimen/activity_horizontal_margin_Medium"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin_Medium"
+        android:layout_height="2dp"
+        android:layout_below="@id/layout_send"
+        android:background="@color/grey">
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/led_stripe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/border_horiz_1"
+        android:text="@string/stripe_ids"/>
+
+
+    <LinearLayout
+        android:id="@+id/layout_ids"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/led_stripe"
+        android:layout_margin="4dp">
+
+        <Button
+            android:id="@+id/id_01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:layout_margin="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:contentDescription="@string/id_01"
+            android:text="@string/id_01"/>
+        <Button
+            android:id="@+id/id_02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:contentDescription="@string/id_02"
+            android:text="@string/id_02"/>
+        <Button
+            android:id="@+id/id_03"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:contentDescription="@string/id_03"
+            android:text="@string/id_03"/>
+        <Button
+            android:id="@+id/id_04"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:contentDescription="@string/id_04"
+            android:text="@string/id_04"/>
+
+        <Button
+            android:id="@+id/id_05"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:contentDescription="@string/id_05"
+            android:text="@string/id_05"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/layout_ids"
+        android:text="@string/mode"/>
+
+    <LinearLayout
+        android:id="@+id/layout_modes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mode"
+        android:layout_margin="4dp">
+
+        <Button
+            android:id="@+id/mode_01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:layout_margin="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:contentDescription="@string/mode_01"
+            android:text="@string/mode_01"/>
+        <Button
+            android:id="@+id/mode_02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:contentDescription="@string/mode_02"
+            android:text="@string/mode_02"/>
+        <Button
+            android:id="@+id/mode_03"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:contentDescription="@string/mode_03"
+            android:text="@string/mode_03"/>
+        <Button
+            android:id="@+id/mode_04"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:contentDescription="@string/mode_04"
+            android:text="@string/mode_04"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/layout_modes"
+        android:layout_above="@+id/send_mode"/>
+
+    <Button
+        android:id="@id/send_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/send"
+        android:onClick="sendMessage"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/image_house"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/temperature_view"
+            android:background="@drawable/ic_expand_less_black_24dp"/>
+
+        <TextView
+            android:id="@id/temperature_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/humidity_view"
+            android:text="@string/temperature_default"/>
+
+        <TextView
+            android:id="@id/humidity_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/humidity_default"/>
+    </RelativeLayout>
+
+</RelativeLayout>

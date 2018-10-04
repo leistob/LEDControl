@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LEDControl</string>
+    <string name="id_01" translatable="false">1</string>
+    <string name="id_02" translatable="false">2</string>
+    <string name="id_03" translatable="false">3</string>
+    <string name="id_04" translatable="false">4</string>
+    <string name="id_05" translatable="false">5</string>
+    <string name="stripe_ids">LED stripe</string>
+    <string name="mode">Mode</string>
+    <string name="mode_01" translatable="false">Fade</string>
+    <string name="mode_02">Color</string>
+    <string name="mode_03" translatable="false">Chill</string>
+    <string name="mode_04">Police light</string>
+    <string name="send">Send</string>
+    <string name="choose_color">Choose color</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="speed">Velocity</string>
+    <string name="slow">Slow</string>
+    <string name="fast">Fast</string>
+    <string name="smart_home" translatable="false">HomeControl</string>
+    <string name="temperature_default" translatable="false">0°C</string>
+    <string name="humidity_default" translatable="false">0 %</string>
+</resources>

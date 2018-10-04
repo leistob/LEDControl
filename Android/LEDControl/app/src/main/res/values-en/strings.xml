@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LEDControl</string>
+    <string name="choose_color">Choose color</string>
+    <string name="mode">Mode</string>
+    <string name="mode_02">Color</string>
+    <string name="send">Send</string>
+    <string name="stripe_ids">LED stripe</string>
+    <string name="mode_04">Police light</string>
+    <string name="speed">Velocity</string>
+    <string name="slow">Slow</string>
+    <string name="fast">Fast</string>
+</resources>
